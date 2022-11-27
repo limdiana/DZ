@@ -1,6 +1,5 @@
 # -*- coding: windows-1251 -*-
 import time
-from PIL import Image
 print('Добро пожаловать в QUEST-GAME'.center(150))
 
 a = input('[1] - Авторизоваться\n[2] - Выход\n')
