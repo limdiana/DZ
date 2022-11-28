@@ -9,8 +9,8 @@
 from datetime import date
 
 class Person():
-    def __init__(self, name, age): #init - конструктор, (свойства экзепляра)
-        self.name = name # свойства
+    def __init__(self, name, age):
+        self.name = name
         self.age = age
 
 
@@ -19,7 +19,7 @@ class Person():
 
     @classmethod
     def classmethod(cls, year):
-        return Person("Nastya", date.today().year - year)
+        return Person("Diana", date.today().year - year)
 
     @staticmethod
     def staticmethod(age):
@@ -29,7 +29,7 @@ class Person():
             return "yes soversh"
 
 
-nastya = (Person.classmethod(2004))
-print(nastya.name)
-print(nastya.age)
-print(nastya.staticmethod(18))
+diana = (Person.classmethod(2004))
+print(diana.name)
+print(diana.age)
+print(diana.staticmethod(18))

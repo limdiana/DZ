@@ -20,8 +20,8 @@ class Name(Fullname):
     def display_info_dop(self):
         print(f"{self.name} гений, но ее отчислят, если она не будет учить ООП.")
 
-nastya = Fullname("Настя")
-nastya.display_info()
+diana = Fullname("Диана")
+diana.display_info()
 
-nastya = Name("Настя")
-nastya.display_info_dop()
+diana= Name("Диана")
+diana.display_info_dop()
